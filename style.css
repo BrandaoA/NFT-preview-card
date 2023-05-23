@@ -39,7 +39,7 @@ body {
     cursor: pointer;
 }
 
-.img-holder:active {
+.img-holder:hover {
     color: var(--cyan);
 }
 .container h2 {
@@ -51,7 +51,7 @@ body {
     cursor: pointer;
 }
 
-.container h2:active {
+.container h2:hover {
     color: var(--cyan);
 }
 .container p {
@@ -109,18 +109,8 @@ hr {
     transition: 0.15s;
     cursor: pointer;
 }
-.profile span:active {
+.profile span:hover {
     color: var(--cyan);
 }
 
-@media only screen and (min-width: 1350) {
-    .img-holder {
-        cursor: pointer;
-    }
-    .container h2 {
-        cursor: pointer;
-    }
-    .profile span {
-        cursor: pointer;
-    }
-}
+@media only screen and (min-width: 1350) {}
